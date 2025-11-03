@@ -241,6 +241,9 @@ Implemented both in backend and frontend:
 - Add dark/light mode
 - Refresh tokens for extended sessions
 - Integrate file attachments
+- OTP Verified Signup 
+- Forgot, Reset and Show Password
+
 
 ---
 
