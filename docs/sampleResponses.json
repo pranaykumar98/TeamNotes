@@ -1,0 +1,43 @@
+{
+  "signup_success": {
+    "message": "Signup Successful",
+    "token": "<jwt_token>",
+    "user": {
+      "id": "6714a2c1e4b0d4e9ab4e37a1",
+      "name": "John Doe",
+      "email": "john@example.com"
+    }
+  },
+  "login_success": {
+    "message": "Login Successful",
+    "token": "<jwt_token>",
+    "user": {
+      "id": "6714a2c1e4b0d4e9ab4e37a1",
+      "name": "John Doe",
+      "email": "john@example.com"
+    }
+  },
+  "get_notes": [
+    {
+      "_id": "6714a4b9e4b0d4e9ab4e37d3",
+      "title": "Team Meeting Notes",
+      "content": "Discussed project updates and deadlines.",
+      "tags": ["meeting", "team"],
+      "createdAt": "2025-10-30T12:22:00.000Z"
+    }
+  ],
+  "analytics_summary": {
+    "totalNotes": 8,
+    "notesPerDay": [
+      { "date": "2025-10-27", "count": 2 },
+      { "date": "2025-10-28", "count": 1 },
+      { "date": "2025-10-29", "count": 3 },
+      { "date": "2025-10-30", "count": 2 }
+    ],
+    "topTags": [
+      { "tag": "work", "count": 5 },
+      { "tag": "personal", "count": 3 },
+      { "tag": "meeting", "count": 2 }
+    ]
+  }
+}

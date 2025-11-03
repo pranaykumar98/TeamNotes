@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide text cursor except in inputs */
+body,
+div,
+section,
+main,
+header,
+footer,
+article,
+aside {
+  caret-color: transparent;
+}
+
+/* Show cursor where users type */
+input,
+textarea,
+[contenteditable="true"] {
+  caret-color: auto;
+}
+
+/* Remove default focus outlines */
+*:focus {
+  outline: none;
+}
+
+/* Add a clean focus style for key elements */
+input:focus,
+textarea:focus,
+button:focus,
+a:focus {
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
+}
+
+/* Smooth scroll and no tap highlight */
+html,
+body {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Simple font, smooth color transitions */
+body {
+  @apply text-gray-800 bg-white font-sans transition-colors duration-300;
+}
